@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Homepage</title>
+<head>
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script type="text/javascript">
+		alert("Hi");
+	</script>
+	<style>
+		/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: black	;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+.btn-danger{
+	width: 60%;	
+}
+
+	</style>
+</head>
+<body>
+<div>
+                    <div class="col-lg-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Registration
+                            </div>
+                            <div class="panel-body">
+                                <div class="panel-body form-group">
+								
+                                    <label>
+										First-Name<input class="form-control"type="text" name="FirstName" placeholder="Enter the first name" required>
+									</label>
+									<label>
+										Last-Name<input class="form-control" type="text" name="Last-Name" placeholder="Enter the last name" required>
+									</label>
+									<label>
+										Username<input class="form-control" type="text" name="user-name" placeholder="Enter the user-name" required>
+									</label>
+									<label>
+										Email<input class="form-control" type="email" name="Email" placeholder="Enter the email" required>
+									</label>
+									
+									<br/>
+									<br/>
+                                    <label>
+										gender<select required="" name="gender">
+											<option selected="" value="1">Female</option>
+											<option value="2">Male</option>
+										</select>
+									</label>
+									<br/>
+									<br/>
+									<label>
+										Mobile-No<input class="form-control" type="text" name="mobile-no" required placeholder="Enter the Mobile-No" required>
+									</label>
+
+									<label>
+										password<input class="form-control" type="password" name="password" placeholder="Enter the password" required>
+									</label>
+
+									<label>
+										Conform-password<input class="form-control" type="password" name="conform-password" placeholder="ReEnter the password" required>
+									</label>
+									<br/>
+									<input class="btn btn-primary" type="submit" name="submit" value="register">
+									<input class="btn btn-primary" type="button" name="submit" value="Cancel">
+									
+                                </div>
+                                <div class="text-right">
+                                    <a href="#">More Tasks <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+					<div class="col-lg-6">
+						<div class="panel panel-default">
+							<input class="registerbtn" type="submit" name="submit" value="Success">
+							<input class="btn btn-danger" type="button" name="submit" value="Cancel">
+						</div>
+					</div>
+					<!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Js -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- Morris Chart Js -->
+    <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="assets/js/morris/morris.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/custom-scripts.js"></script>
+</body>
+</html>
